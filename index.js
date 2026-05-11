@@ -1,3 +1,5 @@
-// run `node index.js` in the terminal
+function calculo (preço, quantidade) {
+return preço * quantidade;
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+};
+console.log (calculo(25.86, 29));
